@@ -1,3 +1,5 @@
+// ignore_for_file: non_constant_identifier_names
+
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
 
@@ -6,6 +8,7 @@ class MyDrawer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    // ignore: prefer_const_declarations
     final ImageUrl =
         "https://th.bing.com/th/id/R.6a5ac1e46747b211b9d13da8a71d3260?rik=shuisPyOHzp4DA&pid=ImgRaw&r=0";
     return Drawer(
